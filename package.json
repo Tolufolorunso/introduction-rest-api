@@ -1,0 +1,15 @@
+{
+    "name": "introduction-rest-api",
+    "version": "1.0.0",
+    "description": "RESTFUL API Assignment",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Tolulope Folorunso",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    }
+}
