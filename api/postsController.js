@@ -18,7 +18,7 @@ const getPosts = async (req, res) => {
 }
 
 // Get a single post
-const getPost = (req, res) => {
+const getASinglePost = (req, res) => {
   const post = allPosts.find((post) => {
     return post.id === parseInt(req.params.id)
   })
@@ -96,7 +96,7 @@ const updatePost = (req, res) => {
 
 module.exports = {
   getPosts,
-  getPost,
+  getASinglePost,
   addPost,
   updatePost,
 }

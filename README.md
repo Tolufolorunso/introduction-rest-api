@@ -11,12 +11,19 @@ This is node.js API. Installation is done using npm install command:
 $ npm install
 ```
 
+## Start the App
+
+```
+$ npm start
+```
+
 All the packages needed for this API to works will be installed with this above
 command.
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/Tolufolorunso`
+- Clone this repo to your local machine using
+  `https://github.com/Tolufolorunso/introduction-rest-api.git`
 
 ### The HTTP verbs used
 
